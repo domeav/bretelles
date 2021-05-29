@@ -1,7 +1,7 @@
 \version "2.22"
 
 \header {
-  title = "Scottish"
+  title = "Cochinchine"
 }
 
 melody = \relative {
