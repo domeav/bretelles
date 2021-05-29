@@ -16,7 +16,7 @@ melody = \relative {
     bes bes bes | bes a g | ees'2 r4 | c d ees | d2 c4 | bes2 a4 | g2 r4 | r2 g4 \bar "||"
     d' bes g | d' bes g | d'2 r4 | r2 d4 | ees ees ees | c d ees | d2 r4 | r2 bes4 |
     a a a | a r a | bes bes bes | bes r bes | bes a bes | c bes c | d2 r4 | r2. |
-    d2 r4 | bes a g | d'2 r4 | bes a g | d' c d | g f ees | d2 r4 | r2. |
+    d2 r4 | bes a g | d'2 r4 | bes a g | d' cis d | g f ees | d2 r4 | r2. |
     c2 r4 | a bes c | bes2 r4 | g a bes | a2 r4 | fis bes a | g2 r4 | r4 g a \bar ":|."
   }
 }
