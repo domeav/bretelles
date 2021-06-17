@@ -3,52 +3,60 @@
 \include "swing.ly"
 
 \header {
-  title = "Jimmy (v1.0)"
+  title = "Jimmy (v1.1)"
   composer = "Moriarty"
 }
 
+
 #(set-global-staff-size 18)
 
-melody = \relative {
-  \key a \minor
+
+lead = \new Voice = "lead" {
   \time 4/4
-  \tempo 4 = 120
-  << \new Voice = "lead" { \set midiInstrument = #"vibraphone"
-		  { e'8 e4. r4 d8 c | d e4 c4. c8 c | \stemDown d8 d4 d4. c8 a | c c c4 a4 r4 | \stemNeutral
-		    e'4 d4 c4 c | d8 e4 e4. c8 c | \stemDown d8 d4 d4. c8 a | c c4. c4 r4 | \stemNeutral
-		    a'8 a4 e4. d8 c | g'8 g4 e4. d8 c | \stemDown d4 d d4. c8 | c a4 a4. r8 \stemNeutral a \bar ":|]" \break }
-		  { e'8 e e4 d c | d4.( c4.) \stemDown c4 | d4. d4. e4 | c2 r4. \stemNeutral a8 
-		    e'8 e e4 d c | d4.( c4.) r4 | \stemDown b4. b4. c4 | b8 a4. r4. \stemNeutral a8 
-		    e'8 e e4 d c | d4.( c4.) r4 | \stemDown d4. d4. c4 | e2 r4. \stemNeutral a,8 
-		    e'8 e e4 d c | d4.( c4.) r4 | \stemDown b4. b4. c4 | b8( a4.) r2 \bar ":|]" \stemNeutral \break }
-		  { \voiceTwo e'4 e d c | d4.( c4.) r4 | g'8 g g4 g f | e8 e4 e8~e2 |
-		    e4 e d c | d4.( c4.) r4 | g'8 g g4 g f | e8 e4 e8~e2 \bar "|." }
-		}
-     \new Voice = "back" { \set midiInstrument = #"harmonica" \voiceOne
-		  { s1 | s1 | g8 g4 g4. g8 g | a a a4 e4 s4 |
-		    s1 | s1 | g8 g4 g4. g8 g | e e4. e4 s4 |
-		    s1 | s1 | g4 g g4. g8 | a a4 c4. s4 | }
-		  { s1 | s2. g4 | g4. g4. g4 | e2 s2 |
-		    s1 | s1 | g4. g4. g4 | g8 a4. s2 |
-		    s1 | s1 | g4. g4. g4 | e2 s2 |
-		    s1 | s1 | g4. g4. g4 | g8 a4. s2 | }
-		  { a4 a c c | c2. s4 | b8 b b4 b c | b8 a4 a8~a2 |
-		    a4 a c c | c2. s4 | b8 b b4 b c | b8 a4 a8~a2 | }
-		}
-     >>
+  \tempo 4 = 124
+  \relative { { e'8 e4. r4 d8 c | d e4 c4. c8 c | \stemDown d8 d4 d4. c8 a | c c c4 a4 r4 | \stemNeutral
+		e'4 d4 c4 c | d8 e4 e4. c8 c | \stemDown d8 d4 d4. c8 a | c c4. c4 r4 | \stemNeutral
+		a'8 a4 e4. d8 c | g'8 g4 e4. d8 c | \stemDown d4 d d4. c8 | c a4 a4. r8 \stemNeutral a \bar ":|]" \break }
+	      { e'8 e e4 d c | d4.( c4.) \stemDown c4 | d4. d4. e4 | c2 r4. \stemNeutral a8 
+		e'8 e e4 d c | d4.( c4.) r4 | \stemDown b4. b4. c4 | b8 a4. r4. \stemNeutral a8 
+		e'8 e e4 d c | d4.( c4.) r4 | \stemDown d4. d4. c4 | e2 r4. \stemNeutral a,8 
+		e'8 e e4 d c | d4.( c4.) r4 | \stemDown b4. b4. c4 | b8( a4.) r2 \bar ":|]" \stemNeutral \break }
+	      { \voiceTwo e'4 e d c | d4.( c4.) r4 | g'8 g g4 g f | e8 e4 e8~e2 |
+		e4 e d c | d4.( c4.) r4 | g'8 g g4 g f | e8 e4 e8~e2 \bar "|." }	      
+	    }
 }
 
-bass = \relative {
+backing = \new Voice = "back" {
+  \voiceOne
+  \relative {
+    \key a \minor {
+      { s1 | s1 | g'8 g4 g4. g8 g | a a a4 e4 s4 |
+	s1 | s1 | g8 g4 g4. g8 g | e e4. e4 s4 |
+	s1 | s1 | g4 g g4. g8 | a a4 c4. s4 | }
+      { s1 | s2. g4 | g4. g4. g4 | e2 s2 |
+	s1 | s1 | g4. g4. g4 | g8 a4. s2 |
+	s1 | s1 | g4. g4. g4 | e2 s2 |
+	s1 | s1 | g4. g4. g4 | g8 a4. s2 | }
+      { a4 a c c | c2. s4 | b8 b b4 b c | b8 a4 a8~a2 |
+	a4 a c c | c2. s4 | b8 b b4 b c | b8 a4 a8~a2 | }
+    }
+  }
+}
+
+
+bass = {
   \clef "bass"
-  { a,4 a8 a a a8 b4  | c c8 c c b a4 | b4 b8 b b b d4 | f8 e c e4. r4 |
-    a,4 a8 a a a8 b4  | c c8 c c b a4 | b4 b8 b b b d4 | f8 e c e4. r4 |
-    a,4 a8 a a a8 b4  | c c8 c c b a4 | b4 b8 b b b d4 | f8 e d c4. r4 | }
-  { r1 | f4. e8 f e4. | b2 r2 | r2 a8 b c4 |
-    r1 | f4. e8 f e4. | d2 r2 | r2 c8 d e4 |
-    r1 | f4. e8 f e4. | b2 r2 | r2 a8 b c4 |
-    r1 | f4. e8 f e4. | d2 r2 | e8 e d4 c8 b4. | }
-  { r2 e2 | f2 r2 | d2 g,2 | a2 r2
-    r2 e'2 | f2 r2 | d2 g,2 | a2 r2 |}
+  \relative {
+    { a,4 a8 a a a8 b4  | c c8 c c b a4 | b4 b8 b b b d4 | f8 e c e4. r4 |
+      a,4 a8 a a a8 b4  | c c8 c c b a4 | b4 b8 b b b d4 | f8 e c e4. r4 |
+      a,4 a8 a a a8 b4  | c c8 c c b a4 | b4 b8 b b b d4 | f8 e d c4. r4 | }
+    { r1 | f4. e8 f e4. | b2 r2 | r2 a8 b c4 |
+      r1 | f4. e8 f e4. | d2 r2 | r2 c8 d e4 |
+      r1 | f4. e8 f e4. | b2 r2 | r2 a8 b c4 |
+      r1 | f4. e8 f e4. | d2 r2 | e8 e d4 c8 b4. | }
+    { r2 e2 | f2 r2 | d2 g,2 | a2 r2
+      r2 e'2 | f2 r2 | d2 g,2 | a2 r2 |}
+  }
 }
 
 
@@ -66,66 +74,120 @@ chordz = \chords {
 
 
 \score {
-  <<
-    \new ChordNames \chordz
-    \new Staff \melody
-    \new Lyrics \lyricsto "lead" {
-      {
-	Ji -- mmy won't you please come home
-	Where the grass is green and the buf -- fa -- loes roam
-	Come see Jimmy your un -- cle Jim and your aun -- tie Jim and your cou -- sin Jim
-	Come home Jimmy 'cause you need a bath and your grand -- pa Jimmy is still gone daft
-      }
-      {
-	The Buf -- fa -- loes used to say __ be proud of your name
-	The Buf -- fa -- loes used to say __ be what you a -- re
-	The Buf -- fa -- loes used to say __ roam where you roam
-	The Buf -- fa -- loes used to say __ do what you do __
-      }
-      {
-	(Re)mem -- ber you're un -- known __
-	Buf -- fa -- lo -- land will be your home
-	(Re)mem -- ber you're un -- known __
-	Buf -- fa -- lo -- land will be your home
-      }
-    }
-    \new Staff \bass
-    \addlyrics {
-      {
-	Roam Ji -- mmy Ji -- mmy roam, roam Ji -- mmy buf -- fa -- lo roam Ji -- mmy Ji -- mmy don't, for -- get your name
-	Roam Ji -- mmy Ji -- mmy roam, roam Ji -- mmy buf -- fa -- lo roam Ji -- mmy Ji -- mmy don't, for -- get your name
-	Roam Ji -- mmy Ji -- mmy roam, roam Ji -- mmy ba -- by come home Ji -- mmy Ji -- mmy sing_the buf -- fa -- lo song
-      }
-      {
-	Buf -- falos used to say Ji -- mmy please
-	Don't for -- get your name you're so young
-	Buf -- falos used to say Ji -- mmy please
-	Don't for -- get your name be back home Jim -- my
+  {
+    \transpose c ees 
+    <<
+      \new ChordNames \chordz
+      \new Staff  << \backing \lead >>
+      \new Lyrics \lyricsto "lead" {
+	{
+	  Ji -- mmy won't you please come home
+	  Where the grass is green and the buf -- fa -- loes roam
+	  Come see Jimmy your un -- cle Jim and your aun -- tie Jim and your cou -- sin Jim
+	  Come home Jimmy 'cause you need a bath and your grand -- pa Jimmy is still gone daft
 	}
-    }
-  >>
+	{
+	  The Buf -- fa -- loes used to say __ be proud of your name
+	  The Buf -- fa -- loes used to say __ be what you a -- re
+	  The Buf -- fa -- loes used to say __ roam where you roam
+	  The Buf -- fa -- loes used to say __ do what you do __
+	}
+	{
+	  (Re)mem -- ber you're un -- known __
+	  Buf -- fa -- lo -- land will be your home
+	  (Re)mem -- ber you're un -- known __
+	  Buf -- fa -- lo -- land will be your home
+	}
+      }
+      \new Staff  \bass
+      \addlyrics {
+	{
+	  Roam Ji -- mmy Ji -- mmy roam, roam Ji -- mmy buf -- fa -- lo roam Ji -- mmy Ji -- mmy don't, for -- get your name
+	  Roam Ji -- mmy Ji -- mmy roam, roam Ji -- mmy buf -- fa -- lo roam Ji -- mmy Ji -- mmy don't, for -- get your name
+	  Roam Ji -- mmy Ji -- mmy roam, roam Ji -- mmy ba -- by come home Ji -- mmy Ji -- mmy sing_the buf -- fa -- lo song
+	}
+	{
+	  Buf -- falos used to say Ji -- mmy please
+	  Don't for -- get your name you're so young
+	  Buf -- falos used to say Ji -- mmy please
+	  Don't for -- get your name be back home Jim -- my
+	}
+      }
+    >> }
 }
-\score {
-  \unfoldRepeats
-  \tripletFeel 8
-  <<
-%    \new ChordNames \chordz
-    \new Staff { \set Staff.midiInstrument = #"vibraphone"
-		 \melody }
-    \new Staff { \set Staff.midiInstrument = #"acoustic bass"
-		 \bass }
-  >>
-  \midi {
-    \context {
-      \Staff
-      \remove "Staff_performer"
-    }
-    \context {
-      \Voice
-      \consists "Staff_performer"
-    }
+\book {
+  \bookOutputSuffix "tutti"
+  \score {
+    \unfoldRepeats
+    \tripletFeel 8
+    \transpose c ees
+    <<
+      \new Staff { \set Staff.midiInstrument = #"acoustic grand"
+		   \lead }
+      \new Staff { \set Staff.midiInstrument = #"harmonica"
+		   \backing }
+      \new Staff { \set Staff.midiInstrument = #"acoustic bass"
+		   \bass }
+    >>
+    \midi { }
   }
 }
+
+\book {
+  \bookOutputSuffix "lead"
+  \score {
+    \unfoldRepeats
+    \tripletFeel 8
+    \transpose c ees
+    <<
+      \new Staff { \set Staff.midiMaximumVolume = #1
+		   \lead }
+      \new Staff { \set Staff.midiMaximumVolume = #0.2
+		   \backing }
+      \new Staff { \set Staff.midiMaximumVolume = #0.2
+		   \bass }
+    >>
+    \midi { }
+  }
+}
+
+\book {
+  \bookOutputSuffix "backing"
+  \score {
+    \unfoldRepeats
+    \tripletFeel 8
+    \transpose c ees
+    <<
+      \new Staff { \set Staff.midiMaximumVolume = #0.2
+		   \lead }
+      \new Staff { \set Staff.midiMaximumVolume = #1
+		   \backing }
+      \new Staff { \set Staff.midiMaximumVolume = #0.2
+		   \bass }
+    >>
+    \midi { }
+  }
+}
+
+\book {
+  \bookOutputSuffix "bass"
+  \score {
+    \unfoldRepeats
+    \tripletFeel 8
+    \transpose c ees
+    <<
+      \new Staff { \set Staff.midiMaximumVolume = #0.2
+		   \lead }
+      \new Staff { \set Staff.midiMaximumVolume = #0.2
+		   \backing }
+      \new Staff { \set Staff.midiMaximumVolume = #1
+		   \bass }
+    >>
+    \midi { }
+  }
+}
+
+
 \markup {
   \fill-line {
     \hspace #1
