@@ -3,223 +3,217 @@
 \include "swing.ly"
 
 \header {
-  title = "Jimmy (v1.1)"
+  title = "Jimmy (v2.0)"
   composer = "Moriarty"
 }
 
 
 #(set-global-staff-size 18)
 
+globalTranspose =
+#(define-music-function (parser location m)
+  (ly:music?)
+  #{ \transpose c c $m #})
 
-lead = \new Voice = "lead" {
-  \time 4/4
-  \tempo 4 = 124
-  \relative { { e'8 e4. r4 d8 c | d e4 c4. c8 c | \stemDown d8 d4 d4. c8 a | c c c4 a4 r4 | \stemNeutral
-		e'4 d4 c4 c | d8 e4 e4. c8 c | \stemDown d8 d4 d4. c8 a | c c4. c4 r4 | \stemNeutral
-		a'8 a4 e4. d8 c | g'8 g4 e4. d8 c | \stemDown d4 d d4. c8 | c a4 a4. r8 \stemNeutral a \bar ":|]" \break }
-	      { e'8 e e4 d c | d4.( c4.) \stemDown c4 | d4. d4. e4 | c2 r4. \stemNeutral a8 
-		e'8 e e4 d c | d4.( c4.) r4 | \stemDown b4. b4. c4 | b8 a4. r4. \stemNeutral a8 
-		e'8 e e4 d c | d4.( c4.) r4 | \stemDown d4. d4. c4 | e2 r4. \stemNeutral a,8 
-		e'8 e e4 d c | d4.( c4.) r4 | \stemDown b4. b4. c4 | b8( a4.) r2 \bar ":|]" \stemNeutral \break }
-	      { \voiceTwo e'4 e d c | d4.( c4.) r4 | g'8 g g4 g f | e8 e4 e8~e2 |
-		e4 e d c | d4.( c4.) r4 | g'8 g g4 g f | e8 e4 e8~e2 \bar "|." }	      
-	    }
+
+
+leadVerseOne = \relative { e'8 e4.( c4) d8 c | e e4 c4. c8 c | d8 d4 d4. c8 a | c c c4 a4 r4 | 
+			   c4 c4 c8 c4 c8 | c8 c4 e8( c4) r8 c8 | d4 d d d8 c | ees c4 c4. r4 | 
+			   a'4 e c c8 c | g'8 g4 e4. d8 c | d8 d4. d8 c4 b8 | c c4 c4. r4 }
+
+lyricsVerseOne = \lyricmode {
+  Ji -- mmy__ won't you please come home where the grass is green and the buf -- fa -- loes roam
+  Come see Jim -- my your un -- cle Jim__ and_your aun -- tie Jim and your cou -- sin Jim
+  Come home Jimmy 'cause you need a bath and your grand -- pa Jim-- my is still gone daft
 }
 
-backing = \new Voice = "back" {
-  \voiceOne
-  \relative {
-    \key a \minor {
-      { s1 | s1 | g'8 g4 g4. g8 g | a a a4 e4 s4 |
-	s1 | s1 | g8 g4 g4. g8 g | e e4. e4 s4 |
-	s1 | s1 | g4 g g4. g8 | a a4 c4. s4 | }
-      { s1 | s2. g4 | g4. g4. g4 | e2 s2 |
-	s1 | s1 | g4. g4. g4 | g8 a4. s2 |
-	s1 | s1 | g4. g4. g4 | e2 s2 |
-	s1 | s1 | g4. g4. g4 | g8 a4. s2 | }
-      { a4 a c c | c2. s4 | b8 b b4 b c | b8 a4 a8~a2 |
-	a4 a c c | c2. s4 | b8 b b4 b c | b8 a4 a8~a2 | }
-    }
-  }
+leadVerseTwo = \relative { gis4 gis | a8 a a4 a a | c8 c c4 c c | d4 d8 c d4 d8( c) | d8 c c8  c4. r4 |
+			   a a a8 a a a | c4 c8 c c4. c8 | d d d4 d d8 d | d a4 a8 a4 r4|
+			   r8 a' e8 c4 r4 c8 | g' g4 e4. r8 c8 | d4 d8 c d4 d8 c | ees8 c4 c4. r4 |
+			 }
+lyricsVerseTwo = \lyricmode {
+  Now there's buf -- fa -- lo Jim and buf -- fa -- lo Jim and Jim buf -- fa -- lo now__ di -- dn't you know__
+  Jim Jim Jim -- my it's your last ci -- ga -- rette but_there's buf -- fa -- lo piss and it's all kind of wet
+  Jam -- bo Jimmy you'd better_hold your nose, all__ roads lead to roam with the buf -- fa -- loes
 }
 
 
-bass = {
-  \clef "bass"
-  \relative {
-    { a,4 a8 a a a8 b4  | c c8 c c b a4 | b4 b8 b b b d4 | f8 e c e4. r4 |
-      a,4 a8 a a a8 b4  | c c8 c c b a4 | b4 b8 b b b d4 | f8 e c e4. r4 |
-      a,4 a8 a a a8 b4  | c c8 c c b a4 | b4 b8 b b b d4 | f8 e d c4. r4 | }
-    { r1 | f4. e8 f e4. | b2 r2 | r2 a8 b c4 |
-      r1 | f4. e8 f e4. | d2 r2 | r2 c8 d e4 |
-      r1 | f4. e8 f e4. | b2 r2 | r2 a8 b c4 |
-      r1 | f4. e8 f e4. | d2 r2 | e8 e d4 c8 b4. | }
-    { r2 e2 | f2 r2 | d2 g,2 | a2 r2
-      r2 e'2 | f2 r2 | d2 g,2 | a2 r2 |}
-  }
+leadVerseThree = \relative { e'8 gis, | a a a a a4 a8 a | c c c4 c r8 c | d4 d d8 d d c | d c c c c4 r8 gis |
+			     e' a, a a a4 a8 a | c c c4 c r8 c | b b b4 b b | c8 a a4 a r4 |
+			     e'8 e4.( c4) d8 c | e e4 c4. c8 c | d8 d4 d4. c8 a | c c c4 a4 r4 |
+			     a'8 a4. c8 a a a | g8 g g4 e d8 c | d4 d d r8 c | e c c4 c r4 |
+			   }
+
+lyricsVerseThree = \lyricmode {
+  Hey! You've got -- ta have a wash but you can't clean your name, you're now called Jim -- my you'll be Jim -- my just the same
+  The keys are in a bag in a chest by the door, one of Jim -- my's friends has ta -- ken the floor
+  Ji -- mmy won't you please come home where the grass is green and the buf -- fa -- loes roam
+  Dear old Jim -- my you've for -- got -- ten you're young, but you can't ig -- nore the buf -- fa -- lo song
+}
+
+leadChorus = \relative { a8 | e'8 e e4 d c | d4.( c4.) c4 | d4. d4. e4 | c2 r4.  a8 
+			 e'8 e e4 d c | d4.( c4.) r4 | b4. b4. c4 | b8 a4. r4.  a8 
+			 e'8 e e4 d c | d4.( c4.) r4 | d4. d4. c4 | e2 r4.  a,8 
+			 e'8 e e4 d c | d4.( c4.) r4 | b4. b4. c4 | b8( a4.) r2 | }
+
+lyricsChorus = 	\lyricmode {
+  The Buf -- fa -- loes used to say __ be proud of your name
+  The Buf -- fa -- loes used to say __ be what you a -- re
+  The Buf -- fa -- loes used to say __ roam where you roam
+  The Buf -- fa -- loes used to say __ do what you do __
 }
 
 
-chordz = \chords {
-  { a1:m | c | g | f |
-    a1:m | c | g | f |
-    a1:m | c | g | f | }
-  { a1:m | f | g | a:m |
-    a1:m | f | g | a:m |
-    a1:m | f | g | a:m |
-    a1:m | f | g | a:m | }
-  { a1:m | f | g | a:m |
-    a1:m | f | g | a:m | }
+leadEnd = \relative { a8 a a | e'4 e d c | d4.( c4.) r4 | b8 b b4 b c | b8 a4 a8~a4. a8 |
+		      e'4 e d c | d4.( c4.) r4 | b8 b b4 b c | b8 a4 a8~a2  \bar "|." }
+
+lyricsEnd = \lyricmode {
+  If you re -- mem -- ber you're un -- known __
+  Buf -- fa -- lo -- land will be your home
+  Re -- mem -- ber you're un -- known __
+  Buf -- fa -- lo -- land will be your home
 }
 
 
-\score {
-  {
-    \transpose c ees 
+backVerse = \relative { r1 | r1 | g'8 g4 g4. g8 g | a a a4 e4 r4 |
+			r1 | r1 | g8 g4 g4. g8 g | e e4. e4 r4 |
+			r1 | r1 | g4 g g4. g8 | a a4 c4. r4  }
+backChorus = \relative { r1 | r2. g'4 | g4. g4. g4 | e2 r2 |
+			 r1 | r1 | g4. g4. g4 | g8 a4. r2 |
+			 r1 | r1 | g4. g4. g4 | e2 r2 |
+			 r1 | r1 | g4. g4. g4 | g8 a4. r2 }
+backEnd = \relative { a'4 a c c | c2. r4 | g'8 g g4 g f | e8 e4 e8~e2 |
+		      a,4 a c c | c2. r4 | g'8 g g4 g f | e8 e4 e8~e2 }
+
+
+
+bassVerse = \relative { a,4 a8 a a a8 b4  | c c8 c c b a4 | b4 b8 b b b d4 | f8 e c e4. r4 }
+bassVerseLyrics = \lyricmode {
+  Roam Ji -- mmy Ji -- mmy roam, roam Ji -- mmy buf -- fa -- lo roam Ji -- mmy Ji -- mmy don't, for -- get your name
+}
+bassVerseAlt = \relative { a,4 a8 a a a8 b4  | c c8 c c b a4 | b4 b8 b b b d4 | f8 e d c4. r4 }
+bassVerseAltLyrics = \lyricmode {
+  Roam Ji -- mmy Ji -- mmy roam, roam Ji -- mmy ba -- by come home Ji -- mmy Ji -- mmy sing_the buf -- fa -- lo song
+}
+bassChorus = \relative { r1 | f4. e8 f e4. | b2 r2 | r2 a8 b c4 }
+bassChorusLyrics = \lyricmode {Buf -- falos used to say Ji -- mmy please Don't for -- get your name you're so young }
+bassChorusAlt = \relative { r1 | f4. e8 f e4. | d2 r2 | r2 c8 d e4 }
+bassChorusAltLyrics = \lyricmode {Buf -- falos used to say Ji -- mmy please Don't for -- get your name be back home Jim -- my }
+bassChorusAltEnd = \relative { r1 | f4. e8 f e4. | d2 r2 | e8 e d4 c8 b4. }
+bassEnd = \relative { r2 e4 e | f2 r2 | d8 d d4 g,4 g | a8 a4 a8( a2) }
+
+chordsVerse = \chordmode { a1:m | c | g | f }
+chordsChorus = \chordmode { a1:m | f | g | a:m }
+
+
+\book {
+  \bookOutputSuffix "conductor"
+  \score {
+    \tripletFeel 8
+    \globalTranspose 
     <<
-      \new ChordNames \chordz
-      \new Staff  << \backing \lead >>
-      \new Lyrics \lyricsto "lead" {
-	{
-	  Ji -- mmy won't you please come home
-	  Where the grass is green and the buf -- fa -- loes roam
-	  Come see Jimmy your un -- cle Jim and your aun -- tie Jim and your cou -- sin Jim
-	  Come home Jimmy 'cause you need a bath and your grand -- pa Jimmy is still gone daft
-	}
-	{
-	  The Buf -- fa -- loes used to say __ be proud of your name
-	  The Buf -- fa -- loes used to say __ be what you a -- re
-	  The Buf -- fa -- loes used to say __ roam where you roam
-	  The Buf -- fa -- loes used to say __ do what you do __
-	}
-	{
-	  (Re)mem -- ber you're un -- known __
-	  Buf -- fa -- lo -- land will be your home
-	  (Re)mem -- ber you're un -- known __
-	  Buf -- fa -- lo -- land will be your home
-	}
+      \new ChordNames { \chordsVerse \chordsVerse \chordsVerse \chordsVerse			
+			\chordsVerse \chordsVerse \chordsVerse \chordsVerse			
+			\chordsChorus \chordsChorus \chordsChorus \chordsChorus			
+			\chordsVerse \chordsVerse \chordsVerse \chordsVerse
+			\chordsVerse \chordsVerse
+			\chordsChorus \chordsChorus
+		      }
+      \new Staff { \time 4/4 \tempo 4 = 124
+		   \leadVerseOne 
+		   r1 r1 r1 r2 \leadVerseTwo
+		   r1 r1 r1 r2.. \leadChorus
+		   r1 r1 r1 r2. \leadVerseThree
+		   r1 r1 r1 r2 r8 \leadEnd
+		 }
+      \addlyrics {
+	\lyricsVerseOne
+	\lyricsVerseTwo
+	\lyricsChorus
+	\lyricsVerseThree
+	\lyricsEnd
       }
-      \new Staff  \bass
+      \new Staff { \set Staff.midiInstrument = #"acoustic bass" \clef "bass" { \bassVerse \bassVerse \bassVerse \bassVerse
+				  \bassVerse \bassVerse \bassVerse \bassVerse
+				  \bassChorus \bassChorusAlt \bassChorus \bassChorusAltEnd
+				  \bassVerse \bassVerse \bassVerse \bassVerse \bassVerse
+				  \bassVerse
+				  \bassEnd \bassEnd
+				}}
       \addlyrics {
 	{
-	  Roam Ji -- mmy Ji -- mmy roam, roam Ji -- mmy buf -- fa -- lo roam Ji -- mmy Ji -- mmy don't, for -- get your name
-	  Roam Ji -- mmy Ji -- mmy roam, roam Ji -- mmy buf -- fa -- lo roam Ji -- mmy Ji -- mmy don't, for -- get your name
-	  Roam Ji -- mmy Ji -- mmy roam, roam Ji -- mmy ba -- by come home Ji -- mmy Ji -- mmy sing_the buf -- fa -- lo song
-	}
-	{
-	  Buf -- falos used to say Ji -- mmy please
-	  Don't for -- get your name you're so young
-	  Buf -- falos used to say Ji -- mmy please
-	  Don't for -- get your name be back home Jim -- my
+	  \bassVerseLyrics \bassVerseLyrics \bassVerseLyrics \bassVerseLyrics
+	  \bassVerseLyrics \bassVerseLyrics \bassVerseLyrics \bassVerseLyrics
+	  \bassChorusLyrics \bassChorusAltLyrics
+	  \bassVerseLyrics \bassVerseLyrics \bassVerseLyrics \bassVerseLyrics \bassVerseLyrics
+	  \bassVerseLyrics
+	  
 	}
       }
-    >> }
-}
-\book {
-  \bookOutputSuffix "tutti"
-  \score {
-    \unfoldRepeats
-    \tripletFeel 8
-    \transpose c ees
-    <<
-      \new Staff { \set Staff.midiInstrument = #"acoustic grand"
-		   \lead }
-      \new Staff { \set Staff.midiInstrument = #"harmonica"
-		   \backing }
-      \new Staff { \set Staff.midiInstrument = #"acoustic bass"
-		   \bass }
     >>
-    \midi { }
+    \layout {}
+    \midi {}
   }
 }
-
 \book {
   \bookOutputSuffix "lead"
   \score {
-    \unfoldRepeats
-    \tripletFeel 8
-    \transpose c ees
-    <<
-      \new Staff { \set Staff.midiMaximumVolume = #1
-		   \lead }
-      \new Staff { \set Staff.midiMaximumVolume = #0.2
-		   \backing }
-      \new Staff { \set Staff.midiMaximumVolume = #0.2
-		   \bass }
-    >>
-    \midi { }
-  }
-}
-
-\book {
-  \bookOutputSuffix "backing"
-  \score {
-    \unfoldRepeats
-    \tripletFeel 8
-    \transpose c ees
-    <<
-      \new Staff { \set Staff.midiMaximumVolume = #0.2
-		   \lead }
-      \new Staff { \set Staff.midiMaximumVolume = #1
-		   \backing }
-      \new Staff { \set Staff.midiMaximumVolume = #0.2
-		   \bass }
-    >>
-    \midi { }
-  }
-}
-
-\book {
-  \bookOutputSuffix "bass"
-  \score {
-    \unfoldRepeats
-    \tripletFeel 8
-    \transpose c ees
-    <<
-      \new Staff { \set Staff.midiMaximumVolume = #0.2
-		   \lead }
-      \new Staff { \set Staff.midiMaximumVolume = #0.2
-		   \backing }
-      \new Staff { \set Staff.midiMaximumVolume = #1
-		   \bass }
-    >>
-    \midi { }
-  }
-}
-
-
-\markup {
-  \fill-line {
-    \hspace #1
-    \column {
-      \line { 1. Jimmy won't you please come home }
-      \line { Where the grass is green and the buffaloes roam }
-      \line { Come see Jimmy your uncle Jim }
-      \line { Your auntie Jimmie and your cousin Jim }
-      \line { Come home Jimmy because you need a bath }
-      \line { And your grandpa Jimmy is still gone daft }
-      \line { -- }
-      \line { Now there's buffalo Jim and buffalo Jim }
-      \line { And Jim buffalo now didn't you know }
-      \line { Jim Jim Jimmy its your last cigarette }
-      \line { But there's buffalo piss and it's all kind of wet }
-      \line { Jambo Jimmy you'd better hold your nose }
-      \line { All roads lead to roam with the buffaloes }
+    {
+      \globalTranspose 
+      <<
+	\new Staff \with { instrumentName = "Verse 1"}
+	{ \time 4/4 \tempo 4 = 124 \key a \minor
+	  { \leadVerseOne } }
+	\addlyrics {
+	  \lyricsVerseOne
+	}
+      >>
     }
-    \hspace #2
-    \column {
-      \line { 2. Well you've gotta have a wash }
-      \line { "                " but you can't clean your name }
-      \line { You're now called Jimmy }
-      \line { "                " you'll be Jimmy just the same }
-      \line { The keys are in a bag in a chest by the door }
-      \line { One of Jimmy's friends has taken the floor }
-      \line { Jimmy won't you please come home }
-      \line { Where the grass is green and the buffaloes roam }
-      \line { Dear old Jimmy you've forgotten you're young }
-      \line { But you can't ignore the buffalo song }
-    }
-    \hspace #1
+  }
+  \score {
+    {
+      \globalTranspose
+      <<
+	\new Staff  \with { instrumentName = "Verse 2"} {
+	{ \partial 2 \leadVerseTwo } }
+	\addlyrics {
+	  \lyricsVerseTwo
+	}
+      >> }
+  }
+  \score {
+    {
+      \globalTranspose
+      <<
+	\new Staff \with { instrumentName = "Chorus"} { 
+	  { \partial 8 \leadChorus } }
+	\addlyrics {
+	  \lyricsChorus
+	}
+      >> }
+  }
+  \score {
+    {
+      \globalTranspose
+      <<
+	\new Staff  \with { instrumentName = "Verse 3"} { 
+	  { \partial 4 \leadVerseThree } }
+	\addlyrics {
+	  \lyricsVerseThree	 
+	}
+      >> }
+  }
+  \score {
+    {
+      \globalTranspose
+      <<
+	\new Staff  \with { instrumentName = "End"} { 
+	  { \partial 4. \leadEnd } }
+	\addlyrics {
+	  \lyricsEnd
+	}
+      >> }
   }
 }
+
 
