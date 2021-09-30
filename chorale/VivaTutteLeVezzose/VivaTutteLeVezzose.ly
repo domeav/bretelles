@@ -7,7 +7,7 @@
 }
 
 soprano = \relative {
-  \time 2/4 \tempo 4 = 120 \key ees \major
+  \time 2/4 \tempo 4 = 110 \key ees \major
   \partial 4 ees'8 f8 |
   \repeat volta 2 {
     g8 ees aes g | f ees
@@ -26,7 +26,7 @@ soprano = \relative {
 }
 
 alto = \relative {
-  \time 2/4 \tempo 4 = 120 \key ees \major
+  \time 2/4 \tempo 4 = 110 \key ees \major
   \partial 4 r4 |
   \repeat volta 2 {
     r2 | r4
@@ -49,7 +49,7 @@ alto = \relative {
 }
 
 tenor = \relative {
-  \time 2/4 \tempo 4 = 120 \key ees \major \clef GG
+  \time 2/4 \tempo 4 = 110 \key ees \major \clef GG
   \partial 4 r4 |
   \repeat volta 2 {
     r2 r2 r2 | r4
@@ -71,7 +71,7 @@ tenor = \relative {
 }
 
 basso = \relative {
-  \time 2/4 \tempo 4 = 120 \key ees \major  \clef bass
+  \time 2/4 \tempo 4 = 110 \key ees \major  \clef bass
   \partial 4 r4 |
   \repeat volta 2 {
     r2 r2 r2 | r4
