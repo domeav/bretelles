@@ -3,7 +3,7 @@
 \include "swing.ly"
 
 \header {
-  title = "Jimmy (v2.1)"
+  title = "Jimmy (v3.0)"
   composer = "Moriarty"
 }
 
@@ -65,7 +65,7 @@ lyricsChorus = 	\lyricmode {
 
 
 leadEnd = \relative { a8 a a | e'4 e d c | d4.( c4.) r4 | b8 b b4 b c | b8 a4 a8~a4. a8 |
-		      e'4 e d c | d4.( c4.) r4 | b8 b b4 b c | b8 a4 a8~a2  \bar "|." }
+		      e'4 e d c | d4.( c4.) r4 | b8 b b4 b c | b8 a4 a8~a8 }
 
 lyricsEnd = \lyricmode {
   If you re -- mem -- ber you're un -- known __
@@ -74,60 +74,47 @@ lyricsEnd = \lyricmode {
   Buf -- fa -- lo -- land will be your home
 }
 
-				% backVerse = \relative { r8 g' g8 g->~g4 r4 | r8 a a8 a->~a4 r4 }
-backVerse = \relative { r8 g'4 g8 g4 r4 | r8 a8 a8 a4. r4 }
-bridgeOne = \relative { a'4. g4 a4 e8~ | e2. r4 | d8 d2 d4 d8 | c2 r2 }
-bridgeTwo = \relative { a'8 a2 a4. | c2. r4 | b8 b2 b4. | c2 r2 }
-backChorus = \relative { r8 a'4. r2 | r4 g4 g4 g4 | g8 a4. r2  }
-backChorusEnd = \relative { r8 c''4. r2 | r4 b4 b4 b4 | b8 c4. r2  }
-backEnd = \relative { a'4 a c c | c2. r4 | g8 g g4 g f | e8 e4 e8~e2 |
-		      a4 a c c | c2. r4 | g8 g g4 g f | e8 e4 e8~e2 }
+
+backVerse = \relative { a'8 a4 r8 r2 | c8 c4 r8 r2 | d4 d8 c8 d8 d4 r8 | e8 e4 r8 r2}
+backLastVerse = \relative { a'8 a4. c8 a a a | g8 g g4 g g8 g | g4 g g r8 g | a a a4 a r4 | }
+backChorus = \relative {
+  a8 | e'8 e e4 e e | f2. r4 | d4. d4. c4 | e2 r4.  a,8 
+  e'8 e e4 d c | d4.( c4.) r4 | d4. d4. e4 | c8( a4.)
+}
+backEnd = \relative { g'8 g g | a4 a e' e | e4.( c4.) r4 | d8 d d4 g, g | a8 a4 a8~a4. g8 |
+		      a4 a e' e  | e4.( c4.) r4 | d8 d d4 g, g | a8 a4 a8~a8 }
 
 allBack = {
-  r1 r1 \backVerse r1 r1 \backVerse
-  r1 r1 \backVerse \bridgeOne
-  r1 r1 \backVerse r1 r1 \backVerse
-  r1 r1 \backVerse \bridgeTwo
-  r1 \backChorus r1 \backChorus
-  r1 \backChorus r1 \backChorusEnd
-  \bridgeOne r1 r1 \backVerse
-  r1 r1 \backVerse r1 r1 \backVerse
-  r1 r1 \backVerse \bridgeTwo
-  r1 \backChorus r1 \backChorus
-  r1 \backChorus r1 \backChorusEnd
-  \backEnd
+  r1 r1 r1 r1 \backVerse
+  \backVerse
+  r1 r1 r1 r1 r1 r1 r1 r1
+  \backVerse \backVerse r1-"solo!" r1 r1 r1
+  r1 r1 r1 r1 r1 r1 r1 r2. r8
+  \backChorus r2
+  r1-"solo!" r1 r1 r1
+  \backVerse
+  \backVerse
+  r1 r1 r1 r1 \backLastVerse
+  r1-"solo!" r1 r1 r1
+  r1 r1 r1 r1 r1 r1 r1 r2. r8
+  \backChorus
+  r2 r1 r1 r1 r1 r1 r1 r1 r2 r8
+  \backEnd r4.
 }
 
-backLyrics = \lyricmode {
-  grass is green (buf)fa -- loes roam
-  aun -- tie Jim cou -- sin Jim
-  Grand -- pa Jim still gone daft
-  mm mm mm mm mm mm mm mm mm
-  buf -- fa -- lo (di)dn't you know
-  (buf)fa -- lo piss kind of wet
-  lead to roam buf -- fa -- loes
-  mm mm mm mm mm mm mm mm
-  say be proud of your name
-  say be what you are _
-  say roam where you roam _
-  say do what you do _
-  mm mm mm mm mm mm mm mm mm
-  now called Jimmy just the same
-  Jimm -- my's friends (ta)ken the floor
-  grass is green (buf)fa -- loes roam
-  can't ig -- nore (buf)fa -- lo song
-  mm mm mm mm mm mm mm mm
-  say be proud of your name
-  say be what you are _
-  say roam where you roam _
-  say do what you do _
-  (re)mem -- ber you're un -- known
-  Buf -- fa -- lo -- land will be your home
-  (re)mem -- ber you're un -- known
-  Buf -- fa -- lo -- land will be your home
-  }
+backVerseLyrics = \lyricmode {
+  Jim -- my Jim -- my
+  Jim Jim -- my Jim -- my Jim -- my
+}
 
+backChorusLyrics = \lyricmode {
+  The Buf -- fa -- loes used to say __ roam where you roam
+  The Buf -- fa -- loes used to say __ do what you do __
+}
 
+backLastVerseLyrics = \lyricmode {
+  Dear old Jim -- my you've for -- got -- ten you're young, but you can't ig -- nore the buf -- fa -- lo song
+}
 
 bassVerse = \relative { a,4 a8 a a a8 b4  | c c8 c c b a4 | b4 b8 b b b d4 | f8 e c e4. r4 }
 bassVerseLyrics = \lyricmode {
@@ -164,7 +151,13 @@ chordsChorus = \chordmode { a1:m | f | g | a:m }
 		   \allBack
 		 }
       \addlyrics {
-	\backLyrics
+	\backVerseLyrics \backVerseLyrics
+	\backVerseLyrics \backVerseLyrics
+	\backChorusLyrics
+	\backVerseLyrics \backVerseLyrics
+	\backLastVerseLyrics
+	\backChorusLyrics
+	\lyricsEnd
       }
       
       \new Staff { \time 4/4 \tempo 4 = 124 \key a \minor
@@ -172,8 +165,9 @@ chordsChorus = \chordmode { a1:m | f | g | a:m }
 		   r1 r1 r1 r2 \leadVerseTwo
 		   r1 r1 r1 r2.. \leadChorus r2
 		   r1 r1 r1 r2. \leadVerseThree
-		   r1 r1 r1 r2.. \leadChorus
-		   r8 \leadEnd
+		   r1 r1 r1 r2.. \leadChorus r8 
+		   \leadEnd
+		   \leadEnd r4.   \bar "|."
 		 }
       \addlyrics {
 	\lyricsVerseOne
@@ -181,6 +175,7 @@ chordsChorus = \chordmode { a1:m | f | g | a:m }
 	\lyricsChorus
 	\lyricsVerseThree
 	\lyricsChorus
+	\lyricsEnd
 	\lyricsEnd
       }
       \new Staff { \key a \minor
@@ -191,7 +186,7 @@ chordsChorus = \chordmode { a1:m | f | g | a:m }
 		     \bassVerse \bassVerse \bassVerse \bassVerse \bassVerse
 		     \bassVerse
 		     \bassChorus \bassChorusAlt \bassChorus \bassChorusAltEnd
-		     \bassEnd \bassEnd
+		     \bassEnd \bassEnd \bassEnd \bassEnd
 		   }}
       \addlyrics {
 	{
@@ -200,7 +195,7 @@ chordsChorus = \chordmode { a1:m | f | g | a:m }
 	  \bassChorusLyrics \bassChorusAltLyrics
 	  \bassVerseLyrics \bassVerseLyrics \bassVerseLyrics \bassVerseLyrics \bassVerseLyrics \bassVerseLyrics
 	  \bassChorusLyrics \bassChorusAltLyrics
-	  \bassEndLyrics \bassEndLyrics
+	  \bassEndLyrics \bassEndLyrics \bassEndLyrics \bassEndLyrics
 	  
 	}
       }
@@ -277,7 +272,7 @@ chordsChorus = \chordmode { a1:m | f | g | a:m }
     {
       \globalTranspose 
       <<
-	\new Staff \with { instrumentName = "Verse"}
+	\new Staff \with { instrumentName = "Bass Verse"}
 	{
 	  \time 4/4  \key a \minor \tempo 4 = 124 \clef "bass"
 	  \bassVerse \bar ":|."
@@ -292,19 +287,19 @@ chordsChorus = \chordmode { a1:m | f | g | a:m }
     {
       \globalTranspose
       <<
-	\new Staff \with { instrumentName = "Chorus"} { 
+	\new Staff \with { instrumentName = "Bass Chorus"} { 
 	  { \key a \minor \clef "bass"
-	    \bassChorus \bassChorusAlt  \bar ":|." } }
+	    \bassChorus \bassChorusAlt \bassChorus \bassChorusAltEnd } }
 	\addlyrics {
 	  \bassChorusLyrics \bassChorusAltLyrics
 	}
       >> }
-  }
+ }
   \score {
     {
       \globalTranspose
       <<
-	\new Staff  \with { instrumentName = "End"} { 
+	\new Staff  \with { instrumentName = "Bass End"} { 
 	  { \key a \minor \clef "bass" \bassEnd  \bar ":|." } }
 	\addlyrics {
 	  \bassEndLyrics
@@ -320,15 +315,45 @@ chordsChorus = \chordmode { a1:m | f | g | a:m }
     {
       \globalTranspose 
       <<
-	\new Staff
+	\new Staff \with { instrumentName = "Verse Back"}
 	{
 	  \time 4/4  \key a \minor \tempo 4 = 124 \clef "treble"
-	  \allBack
+	  \backVerse
 	}
 	\addlyrics {
-	  \backLyrics
+	  \backVerseLyrics
 	}
-      >>
-    }
+      >> }
   }
+  \score {
+    {
+	\globalTranspose 
+	<<
+	  \new Staff \with { instrumentName = "Chorus Back End"}
+	  {
+	    \time 4/4  \key a \minor \tempo 4 = 124 \clef "treble"
+	    r2.. \backChorus
+	}
+	  \addlyrics {
+	    \backChorusLyrics
+	  }
+	>>
+      }
+    }
+  \score {
+    {
+	\globalTranspose 
+	<<
+	  \new Staff \with { instrumentName = "Back End"}
+	  {
+	    \time 4/4  \key a \minor \tempo 4 = 124 \clef "treble"
+	    r2 r8 \backEnd
+	}
+	  \addlyrics {
+	    \lyricsEnd
+	  }
+	>>
+      }
+    }
+
 }
