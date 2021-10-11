@@ -3,7 +3,7 @@
 \include "swing.ly"
 
 \header {
-  title = "Jimmy (v3.0)"
+  title = "Jimmy (v3.1)"
   composer = "Moriarty"
 }
 
@@ -81,8 +81,8 @@ backChorus = \relative {
   a8 | e'8 e e4 e e | f2. r4 | d4. d4. c4 | e2 r4.  a,8 
   e'8 e e4 d c | d4.( c4.) r4 | d4. d4. e4 | c8( a4.)
 }
-backEnd = \relative { g'8 g g | a4 a e' e | e4.( c4.) r4 | d8 d d4 g, g | a8 a4 a8~a4. g8 |
-		      a4 a e' e  | e4.( c4.) r4 | d8 d d4 g, g | a8 a4 a8~a8 }
+backEnd = \relative { g'8 g g | a4 a e' e | e4.( c4.) r4 | d8 d d4 d e | d8 c4 c8~c4. g8 |
+		      a4 a e' e  | e4.( c4.) r4 | d8 d d4 d e  | d8 c4 c8~c8 }
 
 allBack = {
   r1 r1 r1 r1 \backVerse
