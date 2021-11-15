@@ -6,6 +6,9 @@
   composer = "Daniel Romero Puentedura"
 }
 
+#(set-default-paper-size "a5" 'landscape)
+#(set-global-staff-size 18)
+
 \book {
   \bookOutputSuffix "tutti"
   \score {

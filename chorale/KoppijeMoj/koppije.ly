@@ -6,6 +6,9 @@
   composer = "Albanie/Italie"
 }
 
+#(set-default-paper-size "a5" 'landscape)
+#(set-global-staff-size 20)
+
 \book {
   \bookOutputSuffix "tutti"
   \score {
