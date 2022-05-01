@@ -2,16 +2,23 @@
 
 
 \header {
-  title = "El Carbonero (v1.0)"
+  title = "El Carbonero (v1.1)"
   composer = "Daniel Romero Puentedura"
 }
 
 #(set-default-paper-size "a5" 'landscape)
 #(set-global-staff-size 18)
 
+globalTranspose =
+#(define-music-function (parser location m)
+  (ly:music?)
+  #{ \transpose c d $m #})
+
+
 \book {
   \bookOutputSuffix "tutti"
   \score {
+    \globalTranspose
     \new Staff {
       <<
 	\new Voice = "one" {

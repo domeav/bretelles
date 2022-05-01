@@ -7,6 +7,12 @@
   composer = "Georges Brassens"
 }
 
+globalTranspose =
+#(define-music-function (parser location m)
+  (ly:music?)
+  #{ \transpose c ees $m #})
+
+
 chordz = \chords { \repeat volta 5 {
   \set ChordNames.midiMaximumVolume = #0
   a2:m a2:m | g2:7 c2 |
@@ -68,6 +74,7 @@ bass = 	\relative {
   \bookOutputSuffix "tutti"
   \score {
     \tripletFeel 8
+    \globalTranspose
     <<
       \new ChordNames \chordz
       \new Staff {
