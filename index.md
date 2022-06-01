@@ -2,6 +2,10 @@
 
 ![Ah ! Qu'elles sont jolies](logo.png)
 
+## À la claire fontaine
+
+- [2nde voix](chorale/ALaClaireFontaine/2ndVoix.mp3)
+
 ## Cécile
 
 - [partition](chorale/Cecile/Cécile.pdf)
