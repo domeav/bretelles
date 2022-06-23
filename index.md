@@ -18,6 +18,7 @@
 ## Cinturini
 
 - [partition](chorale/Cinturini/Cinturini-tutti.pdf)
+- [paroles](chorale/Cinturini/paroles.jpeg)
 
 ## Down to the river to pray
 
