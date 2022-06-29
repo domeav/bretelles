@@ -48,6 +48,11 @@
 
 - [partition](chorale/KoppijeMoj/koppije-tutti.pdf)
 
+## Penn Sardin
+
+- [partition](chorale/PennSardin/PennSardin.pdf)
+- [2 voix stereo](chorale/PennSardin/PennSardin-stereo.mp3)
+
 ## Quand on boit du vin clairet
 
 - [partition](chorale/VinClairet/Tourdion.pdf)
