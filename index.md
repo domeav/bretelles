@@ -56,6 +56,7 @@
 ## Quand on boit du vin clairet
 
 - [partition](chorale/VinClairet/Tourdion.pdf)
+- [sop](chorale/VinClairet/Soprano.mp3) [alto](chorale/VinClairet/Alto.mp3) [tenor](chorale/VinClairet/Tenor.mp3) [bass](chorale/VinClairet/Basse.mp3) [tutti](chorale/VinClairet/tutti.mp3)
 
 ## Viva tutte le vezzose
 
