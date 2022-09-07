@@ -42,6 +42,7 @@
 
 ## E Piu Non Canto
 
+- [partition](chorale/EPiuNonCanto/EPiuNonCanto.pdf)
 - [haute](chorale/EPiuNonCanto/haute.mp3) [medium](chorale/EPiuNonCanto/medium.mp3) [basse](chorale/EPiuNonCanto/basse.mp3) [tutti](chorale/EPiuNonCanto/tutti.mp3)
 
 ## Koppije moj
