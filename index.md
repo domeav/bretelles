@@ -49,6 +49,10 @@
 
 - [partition](chorale/KoppijeMoj/koppije-tutti.pdf)
 
+## La Jeune Fillette
+
+- [partition](chorale/LaJeuneFillette/LaJeuneFillette.pdf)
+
 ## Penn Sardin
 
 - [partition](chorale/PennSardin/PennSardin.pdf)
