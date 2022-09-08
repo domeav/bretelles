@@ -49,9 +49,10 @@
 
 - [partition](chorale/KoppijeMoj/koppije-tutti.pdf)
 
-## La Jeune Fillette
+## Pas sur la bouche
 
-- [partition](chorale/LaJeuneFillette/LaJeuneFillette.pdf)
+- [partition](chorale/PasSurLaBouche/PasSurLaBouche.pdf)
+- [tutti](chorale/PasSurLaBouche/tutti.mp3) [voix1](chorale/PasSurLaBouche/voix1.mp3) [Voix 2](chorale/PasSurLaBouche/voix2.mp3)
 
 ## Penn Sardin
 
@@ -62,6 +63,11 @@
 
 - [partition](chorale/VinClairet/Tourdion.pdf)
 - [sop](chorale/VinClairet/Soprano.mp3) [alto](chorale/VinClairet/Alto.mp3) [tenor](chorale/VinClairet/Tenor.mp3) [bass](chorale/VinClairet/Basse.mp3) [tutti](chorale/VinClairet/tutti.mp3)
+
+## Une Jeune Fillette
+
+- [partition](chorale/LaJeuneFillette/LaJeuneFillette.pdf)
+
 
 ## Viva tutte le vezzose
 
