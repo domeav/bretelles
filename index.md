@@ -64,6 +64,10 @@
 - [partition](chorale/VinClairet/Tourdion.pdf)
 - [sop](chorale/VinClairet/Soprano.mp3) [alto](chorale/VinClairet/Alto.mp3) [tenor](chorale/VinClairet/Tenor.mp3) [bass](chorale/VinClairet/Basse.mp3) [tutti](chorale/VinClairet/tutti.mp3)
 
+## Sinte Kofone
+
+- [paroles](chorale/SinteKofone/paroles.jpg) [voix](chorale/SinteKofone/voix.mp3)
+
 ## Une Jeune Fillette
 
 - [partition](chorale/LaJeuneFillette/LaJeuneFillette.pdf) [tutti](chorale/LaJeuneFillette/tutti.mp3) [soprano](chorale/LaJeuneFillette/soprano.mp3) [alto](chorale/LaJeuneFillette/alto.mp3) [bass](chorale/LaJeuneFillette/bass.mp3)
