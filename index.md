@@ -66,7 +66,7 @@
 
 ## Une Jeune Fillette
 
-- [partition](chorale/LaJeuneFillette/LaJeuneFillette.pdf)
+- [partition](chorale/LaJeuneFillette/LaJeuneFillette.pdf) [tutti](chorale/LaJeuneFillette/tutti.mp3) [soprano](chorale/LaJeuneFillette/soprano.mp3) [alto](chorale/LaJeuneFillette/alto.mp3) [bass](chorale/LaJeuneFillette/bass.mp3)
 
 
 ## Viva tutte le vezzose
