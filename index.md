@@ -2,9 +2,10 @@
 
 ![Ah ! Qu'elles sont jolies](logo.png)
 
-## À la claire fontaine
+## À la claire fontaine (2 versions !)
 
 - [2nde voix](chorale/ALaClaireFontaine/2ndVoix.mp3)
+- [Démo percus corporelles](chorale/ALaClaireFontaine/demo_percu_corp.mp4)
 
 ## Cécile
 
