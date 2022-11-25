@@ -6,6 +6,7 @@
 
 - [2nde voix](chorale/ALaClaireFontaine/2ndVoix.mp3)
 - [Démo percus corporelles](chorale/ALaClaireFontaine/demo_percu_corp.mp4)
+- [paroles](chorale/ALaClaireFontaine/paroles.pdf)
 
 ## Cécile
 
@@ -19,7 +20,7 @@
 ## Cinturini
 
 - [partition](chorale/Cinturini/Cinturini-tutti.pdf)
-- [paroles](chorale/Cinturini/paroles.jpeg)
+- [paroles](chorale/Cinturini/paroles.pdf)
 
 ## Down to the river to pray
 
@@ -28,6 +29,7 @@
 - [alto](chorale/DownToTheRiverToPray/alto.mp3)
 - [tenor](chorale/DownToTheRiverToPray/tenor.mp3)
 - [bass](chorale/DownToTheRiverToPray/bass.mp3)
+- [paroles](chorale/DownToTheRiverToPray/paroles.pdf)
 
 ## Ederlezi
 
@@ -36,38 +38,46 @@
 - [soprano](chorale/Ederlezi/soprano.mp3)
 - [alto](chorale/Ederlezi/alto.mp3)
 - [basso](chorale/Ederlezi/basso.mp3)
+- [paroles](chorale/Ederlezi/paroles.pdf)
 
 ## El carbonero
 
 - [partition](chorale/ElCarbonero/elCarbonero-tutti.pdf)
+- [paroles](chorale/ElCarbonero/paroles.pdf)
 
 ## E Piu Non Canto
 
 - [partition](chorale/EPiuNonCanto/EPiuNonCanto.pdf)
 - [haute](chorale/EPiuNonCanto/haute.mp3) [medium](chorale/EPiuNonCanto/medium.mp3) [basse](chorale/EPiuNonCanto/basse.mp3) [tutti](chorale/EPiuNonCanto/tutti.mp3)
+- [paroles](chorale/EPiuNonCanto/paroles.pdf)
 
 ## Koppije moj
 
 - [partition](chorale/KoppijeMoj/koppije-tutti.pdf)
+- [paroles](chorale/KoppijeMoj/paroles.pdf)
 
 ## Pas sur la bouche
 
 - [partition](chorale/PasSurLaBouche/PasSurLaBouche.pdf)
 - [tutti](chorale/PasSurLaBouche/tutti.mp3) [voix1](chorale/PasSurLaBouche/voix1.mp3) [Voix 2](chorale/PasSurLaBouche/voix2.mp3)
+- [paroles](chorale/PasSurLaBouche/paroles.pdf)
 
 ## Penn Sardin
 
 - [partition](chorale/PennSardin/PennSardin.pdf)
 - [2 voix stereo](chorale/PennSardin/PennSardin-stereo.mp3)
+- [paroles](chorale/PennSardin/paroles.pdf)
 
 ## Quand on boit du vin clairet
 
 - [partition](chorale/VinClairet/Tourdion.pdf)
 - [sop](chorale/VinClairet/Soprano.mp3) [alto](chorale/VinClairet/Alto.mp3) [tenor](chorale/VinClairet/Tenor.mp3) [bass](chorale/VinClairet/Basse.mp3) [tutti](chorale/VinClairet/tutti.mp3)
+- [paroles](chorale/VinClairet/paroles.pdf)
 
 ## Sinte Kofone
 
-- [paroles](chorale/SinteKofone/paroles.jpg) [voix](chorale/SinteKofone/voix.mp3)
+- [paroles](chorale/SinteKofone/paroles.pdf) [voix](chorale/SinteKofone/voix.mp3)
+
 
 ## Une Jeune Fillette
 
@@ -82,3 +92,4 @@
 - [alto](chorale/VivaTutteLeVezzose/VivaTutteLeVezzose-alto.mp3)
 - [tenor](chorale/VivaTutteLeVezzose/VivaTutteLeVezzose-tenor.mp3)
 - [basso](chorale/VivaTutteLeVezzose/VivaTutteLeVezzose-basso.mp3)
+- [paroles](chorale/VivaTutteLeVezzose/paroles.pdf)
