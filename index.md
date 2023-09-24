@@ -2,11 +2,17 @@
 
 ![Ah ! Qu'elles sont jolies](logo.png)
 
+Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
+
 ## À la claire fontaine (2 versions !)
 
 - [2nde voix](chorale/ALaClaireFontaine/2ndVoix.mp3)
 - [Démo percus corporelles](chorale/ALaClaireFontaine/demo_percu_corp.mp4)
 - [paroles](chorale/ALaClaireFontaine/paroles.pdf)
+
+## A round of three country dances
+
+- [partition](chorale/ARoundOfThreeCountryDances/three_country_dances.pdf)
 
 ## Cécile
 
@@ -56,6 +62,14 @@
 - [partition](chorale/KoppijeMoj/koppije-tutti.pdf)
 - [paroles](chorale/KoppijeMoj/paroles.pdf)
 
+## Le chat
+
+- [partition](chorale/LeChat/LeChat.pdf)
+
+## Liberta
+
+- [partition](chorale/Liberta/Liberta.pdf)
+
 ## Pas sur la bouche
 
 - [partition](chorale/PasSurLaBouche/PasSurLaBouche.pdf)
@@ -71,13 +85,19 @@
 ## Quand on boit du vin clairet
 
 - [partition](chorale/VinClairet/Tourdion.pdf)
-- [sop](chorale/VinClairet/Soprano.mp3) [alto](chorale/VinClairet/Alto.mp3) [tenor](chorale/VinClairet/Tenor.mp3) [bass](chorale/VinClairet/Basse.mp3) [tutti](chorale/VinClairet/tutti.mp3)
 - [paroles](chorale/VinClairet/paroles.pdf)
+
+## Samba Lele
+
+- [partition](chorale/SambaLele/SambaLele.pdf)
 
 ## Sinte Kofone
 
 - [paroles](chorale/SinteKofone/paroles.pdf) [voix](chorale/SinteKofone/voix.mp3)
 
+## Tous les mêmes
+
+- [partition](chorale/TousLesMemes/Tous%20les%20m%C3%AAmes.pdf) [tutti](chorale/TousLesMemes/tutti.wav.mp3) [basse](chorale/TousLesMemes/basse.wav.mp3) [baryton](chorale/TousLesMemes/baryton.wav.mp3) [lead](chorale/TousLesMemes/lead.wav.mp3) [tenor](chorale/TousLesMemes/tenor.wav.mp3)
 
 ## Une Jeune Fillette
 
