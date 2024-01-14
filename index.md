@@ -57,6 +57,10 @@ Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 - [haute](chorale/EPiuNonCanto/haute.mp3) [medium](chorale/EPiuNonCanto/medium.mp3) [basse](chorale/EPiuNonCanto/basse.mp3) [tutti](chorale/EPiuNonCanto/tutti.mp3)
 - [paroles](chorale/EPiuNonCanto/paroles.pdf)
 
+## Karma Chameleon
+
+- [partition](chorale/KarmaChameleon/partition.pdf) [Paroles](chorale/KarmaChameleon/paroles.pdf) [tutti](chorale/KarmaChameleon/tutti.mp3) [sop](chorale/KarmaChameleon/soprano.mp3) [alto](chorale/KarmaChameleon/alto.mp3) [tenor](chorale/KarmaChameleon/tenor.mp3) [basse](chorale/KarmaChameleon/bass.mp3)
+
 ## Koppije moj
 
 - [partition](chorale/KoppijeMoj/koppije-tutti.pdf)
