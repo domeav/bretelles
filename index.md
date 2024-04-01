@@ -16,7 +16,7 @@ Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 
 ## Bring me little water, Silvy
 
-- [partition](chorale/BringMeLittleWaterSilvy/BringMeLittleWaterSilvy.pdf) [sop](chorale/BringMeLittleWaterSilvy/Bring-Me-Little-Water-Silvy_SATB_C-SOP.mp3.pdf) [alto](chorale/BringMeLittleWaterSilvy/Bring-Me-Little-Water-Silvy_SATB_C-ALTO.mp3.pdf) [tenor](chorale/BringMeLittleWaterSilvy/Bring-Me-Little-Water-Silvy_SATB_C-TEN.mp3.pdf) [bass](chorale/BringMeLittleWaterSilvy/Bring-Me-Little-Water-Silvy_SATB_C-BASS.mp3.pdf)
+- [partition](chorale/BringMeLittleWaterSilvy/BringMeLittleWaterSilvy.pdf) [sop](chorale/BringMeLittleWaterSilvy/Bring-Me-Little-Water-Silvy_SATB_C-SOP.mp3) [alto](chorale/BringMeLittleWaterSilvy/Bring-Me-Little-Water-Silvy_SATB_C-ALTO.mp3) [tenor](chorale/BringMeLittleWaterSilvy/Bring-Me-Little-Water-Silvy_SATB_C-TEN.mp3) [bass](chorale/BringMeLittleWaterSilvy/Bring-Me-Little-Water-Silvy_SATB_C-BASS.mp3)
 
 ## Cécile
 
