@@ -105,7 +105,7 @@ Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 
 ## Tous les mêmes
 
-- [partition](chorale/TousLesMemes/Tous%20les%20m%C3%AAmes.pdf) [tutti](chorale/TousLesMemes/tutti.wav.mp3) [basse](chorale/TousLesMemes/basse.wav.mp3) [baryton](chorale/TousLesMemes/baryton.wav.mp3) [lead](chorale/TousLesMemes/lead.wav.mp3) [tenor](chorale/TousLesMemes/tenor.wav.mp3)
+- [partition](chorale/TousLesMemes/Tous%20les%20m%C3%AAmes.pdf) [tutti](chorale/TousLesMemes/tutti.mp3) [basse](chorale/TousLesMemes/basse.mp3) [tenor](chorale/TousLesMemes/tenor.mp3) [alto](chorale/TousLesMemes/alto.mp3) [soprano](chorale/TousLesMemes/soprano.mp3)
 
 ## Une Jeune Fillette
 
