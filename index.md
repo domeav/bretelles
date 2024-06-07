@@ -74,6 +74,10 @@ Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 
 - [partition](chorale/LeChat/LeChat.pdf)
 
+## Les sardinières
+
+- [partition](chorale/LesSardinieres/LesSardinieres.pdf)
+
 ## Liberta
 
 - [partition](chorale/Liberta/Liberta.pdf)
