@@ -12,7 +12,7 @@
 globalTranspose =
 #(define-music-function (parser location m)
   (ly:music?)
-  #{ \transpose c d $m #})
+  #{ \transpose c e $m #})
 
 
 \book {
