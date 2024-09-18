@@ -77,6 +77,8 @@ Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 ## Les sardinières
 
 - [partition](chorale/LesSardinieres/LesSardinieres.pdf)
+- Voix séparées : [basse](chorale/LesSardinieres/bass.mp3) [lead](chorale/LesSardinieres/lead.mp3) [contrechant](chorale/LesSardinieres/contrechant.mp3)
+- Voix ensemble : [Basse + Lead](chorale/LesSardinieres/bass-lead.mp3) [tutti](chorale/LesSardinieres/tutti.mp3)
 
 ## Liberta
 
