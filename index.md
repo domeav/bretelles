@@ -1,7 +1,3 @@
-# C'est nous les Bretelles !
-
-![Ah ! Qu'elles sont jolies](logo.png)
-
 Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 
 ## À la claire fontaine (2 versions !)
@@ -16,16 +12,11 @@ Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 
 ## Bring me little water, Silvy
 
-- [partition](chorale/BringMeLittleWaterSilvy/BringMeLittleWaterSilvy.pdf) [sop](chorale/BringMeLittleWaterSilvy/Bring-Me-Little-Water-Silvy_SATB_C-SOP.mp3) [alto](chorale/BringMeLittleWaterSilvy/Bring-Me-Little-Water-Silvy_SATB_C-ALTO.mp3) [tenor](chorale/BringMeLittleWaterSilvy/Bring-Me-Little-Water-Silvy_SATB_C-TEN.mp3) [bass](chorale/BringMeLittleWaterSilvy/Bring-Me-Little-Water-Silvy_SATB_C-BASS.mp3)
-
-## Cécile
-
-- [partition](chorale/Cecile/Cécile.pdf)
-- [tutti](chorale/Cecile/tutti.mp3)
-- [soprano](chorale/Cecile/soprano-stereo.mp3)
-- [alto](chorale/Cecile/alto-stereo.mp3)
-- [tenor](chorale/Cecile/tenor-stereo.mp3)
-- [basse](chorale/Cecile/bass-stereo.mp3)
+- [partition](chorale/BringMeLittleWaterSilvy/BringMeLittleWaterSilvy.pdf)
+- [sop](chorale/BringMeLittleWaterSilvy/Bring-Me-Little-Water-Silvy_SATB_C-SOP.mp3)
+- [alto](chorale/BringMeLittleWaterSilvy/Bring-Me-Little-Water-Silvy_SATB_C-ALTO.mp3)
+- [tenor](chorale/BringMeLittleWaterSilvy/Bring-Me-Little-Water-Silvy_SATB_C-TEN.mp3)
+- [bass](chorale/BringMeLittleWaterSilvy/Bring-Me-Little-Water-Silvy_SATB_C-BASS.mp3)
 
 ## Cinturini
 
@@ -58,12 +49,17 @@ Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 ## E Piu Non Canto
 
 - [partition](chorale/EPiuNonCanto/EPiuNonCanto.pdf)
-- [haute](chorale/EPiuNonCanto/haute.mp3) [medium](chorale/EPiuNonCanto/medium.mp3) [basse](chorale/EPiuNonCanto/basse.mp3) [tutti](chorale/EPiuNonCanto/tutti.mp3)
+- [haute](chorale/EPiuNonCanto/haute.mp3)
+- [medium](chorale/EPiuNonCanto/medium.mp3)
+- [basse](chorale/EPiuNonCanto/basse.mp3)
+- [tutti](chorale/EPiuNonCanto/tutti.mp3)
 - [paroles](chorale/EPiuNonCanto/paroles.pdf)
 
-## Karma Chameleon
-
-- [partition](chorale/KarmaChameleon/partition.pdf) [Paroles](chorale/KarmaChameleon/paroles.pdf) [tutti](chorale/KarmaChameleon/tutti.mp3) [sop](chorale/KarmaChameleon/soprano.mp3) [alto](chorale/KarmaChameleon/alto.mp3) [tenor](chorale/KarmaChameleon/tenor.mp3) [basse](chorale/KarmaChameleon/bass.mp3)
+## El Pueblo
+- [partition](chorale/ElPueblo/ElPueblo.pdf)
+- [alto1](chorale/ElPueblo/alto1.mp3)
+- [alto2](chorale/ElPueblo/alto2.mp3)
+- [basse](chorale/ElPueblo/bass.mp3)
 
 ## Koppije moj
 
@@ -80,23 +76,13 @@ Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 - Voix séparées : [basse](chorale/LesSardinieres/bass.mp3) [lead](chorale/LesSardinieres/lead.mp3) [contrechant](chorale/LesSardinieres/contrechant.mp3)
 - Voix ensemble : [Basse + Lead](chorale/LesSardinieres/bass-lead.mp3) [tutti](chorale/LesSardinieres/tutti.mp3)
 
-## Liberta
-
-- [partition](chorale/Liberta/Liberta.pdf)
-
-## Pas sur la bouche
-
-- [partition](chorale/PasSurLaBouche/PasSurLaBouche.pdf)
-- [tutti](chorale/PasSurLaBouche/tutti.mp3) [voix1](chorale/PasSurLaBouche/voix1.mp3) [Voix 2](chorale/PasSurLaBouche/voix2.mp3)
-- [paroles](chorale/PasSurLaBouche/paroles.pdf)
-
 ## Penn Sardin
 
 - [partition](chorale/PennSardin/PennSardin.pdf)
 - [2 voix stereo](chorale/PennSardin/PennSardin-stereo.mp3)
 - [paroles](chorale/PennSardin/paroles.pdf)
 
-## Quand on boit du vin clairet
+## Quand je bois du vin clairet
 
 - [partition](chorale/VinClairet/Tourdion.pdf)
 - [paroles](chorale/VinClairet/paroles.pdf)
@@ -105,17 +91,22 @@ Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 
 - [partition](chorale/SambaLele/SambaLele.pdf)
 
-## Sinte Kofone
-
-- [paroles](chorale/SinteKofone/paroles.pdf) [voix](chorale/SinteKofone/voix.mp3)
-
 ## Tous les mêmes
 
-- [partition](chorale/TousLesMemes/Tous%20les%20m%C3%AAmes.pdf) [tutti](chorale/TousLesMemes/tutti.mp3) [basse](chorale/TousLesMemes/basse.mp3) [tenor](chorale/TousLesMemes/tenor.mp3) [alto](chorale/TousLesMemes/alto.mp3) [soprano](chorale/TousLesMemes/soprano.mp3)
+- [partition](chorale/TousLesMemes/Tous%20les%20m%C3%AAmes.pdf)
+- [tutti](chorale/TousLesMemes/tutti.mp3)
+- [basse](chorale/TousLesMemes/basse.mp3)
+- [tenor](chorale/TousLesMemes/tenor.mp3)
+- [alto](chorale/TousLesMemes/alto.mp3)
+- [soprano](chorale/TousLesMemes/soprano.mp3)
 
 ## Une Jeune Fillette
 
-- [partition](chorale/LaJeuneFillette/LaJeuneFillette.pdf) [tutti](chorale/LaJeuneFillette/tutti.mp3) [soprano](chorale/LaJeuneFillette/soprano.mp3) [alto](chorale/LaJeuneFillette/alto.mp3) [bass](chorale/LaJeuneFillette/bass.mp3)
+- [partition](chorale/LaJeuneFillette/LaJeuneFillette.pdf) 
+- [tutti](chorale/LaJeuneFillette/tutti.mp3)
+- [soprano](chorale/LaJeuneFillette/soprano.mp3)
+- [alto](chorale/LaJeuneFillette/alto.mp3)
+- [bass](chorale/LaJeuneFillette/bass.mp3)
 
 
 ## Viva tutte le vezzose
