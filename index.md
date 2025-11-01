@@ -61,12 +61,12 @@ Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 - [alto2](chorale/ElPueblo/alto2.mp3)
 - [basse](chorale/ElPueblo/bass.mp3)
 
-# George Michael
-- [partition](chorale/GeorgeMichael/GeorgeMichael.pdf)
-- [lead](chorale/GeorgeMichael/GeorgeMichael/lead.mp3)
-- [choir1](chorale/GeorgeMichael/GeorgeMichael/choir1.mp3) [choir2](chorale/GeorgeMichael/GeorgeMichael/choir2.mp3)
-- [bass](chorale/GeorgeMichael/GeorgeMichael/bass.mp3)
-- [tutti](chorale/GeorgeMichael/GeorgeMichael/tutti.mp3)
+## George Michael
+- [partition](chorale/GeorgeMichael.pdf)
+- [lead](chorale/GeorgeMichael/lead.mp3)
+- [choir1](chorale/GeorgeMichael/choir1.mp3) [choir2](chorale/GeorgeMichael/choir2.mp3)
+- [bass](chorale/GeorgeMichael/bass.mp3)
+- [tutti](chorale/GeorgeMichael/tutti.mp3)
 
 ## Koppije moj
 
