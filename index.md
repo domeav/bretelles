@@ -62,7 +62,7 @@ Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 - [basse](chorale/ElPueblo/bass.mp3)
 
 ## George Michael
-- [partition](chorale/GeorgeMichael.pdf)
+- [partition](chorale/GeorgeMichael/GeorgeMichael.pdf)
 - [lead](chorale/GeorgeMichael/lead.mp3)
 - [choir1](chorale/GeorgeMichael/choir1.mp3) [choir2](chorale/GeorgeMichael/choir2.mp3)
 - [bass](chorale/GeorgeMichael/bass.mp3)
