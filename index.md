@@ -68,6 +68,14 @@ Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 - [bass](chorale/GeorgeMichael/bass.mp3)
 - [tutti](chorale/GeorgeMichael/tutti.mp3)
 
+## Here We Come A'Caroling
+- [partition](chorale/HereWeComeACaroling/ACaroling.pdf)
+- [tutti](chorale/HereWeComeACaroling/tutti.mp3)
+- [soprano](chorale/HereWeComeACaroling/soprano.mp3)
+- [alto](chorale/HereWeComeACaroling/alto.mp3)
+- [tenor](chorale/HereWeComeACaroling/tenor.mp3)
+- [bass](chorale/HereWeComeACaroling/bass.mp3)
+
 ## Koppije moj
 
 - [partition](chorale/KoppijeMoj/koppije-tutti.pdf)
@@ -94,10 +102,6 @@ Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 - [partition](chorale/VinClairet/Tourdion.pdf)
 - [paroles](chorale/VinClairet/paroles.pdf)
 
-## Samba Lele
-
-- [partition](chorale/SambaLele/SambaLele.pdf)
-
 ## Tous les mêmes
 
 - [partition](chorale/TousLesMemes/Tous%20les%20m%C3%AAmes.pdf)
@@ -106,15 +110,6 @@ Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 - [tenor](chorale/TousLesMemes/tenor.mp3)
 - [alto](chorale/TousLesMemes/alto.mp3)
 - [soprano](chorale/TousLesMemes/soprano.mp3)
-
-## Une Jeune Fillette
-
-- [partition](chorale/LaJeuneFillette/LaJeuneFillette.pdf) 
-- [tutti](chorale/LaJeuneFillette/tutti.mp3)
-- [soprano](chorale/LaJeuneFillette/soprano.mp3)
-- [alto](chorale/LaJeuneFillette/alto.mp3)
-- [bass](chorale/LaJeuneFillette/bass.mp3)
-
 
 ## Viva tutte le vezzose
 
@@ -125,3 +120,12 @@ Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 - [tenor](chorale/VivaTutteLeVezzose/VivaTutteLeVezzose-tenor.mp3)
 - [basso](chorale/VivaTutteLeVezzose/VivaTutteLeVezzose-basso.mp3)
 - [paroles](chorale/VivaTutteLeVezzose/paroles.pdf)
+
+
+## White Chistmas
+- [partition](chorale/WhiteChristmas/WhiteChristmas.pdf)
+- [tutti](chorale/WhiteChristmas/tutti.mp3)
+- [soprano](chorale/WhiteChristmas/soprano.mp3)
+- [mezzo](chorale/WhiteChristmas/mezzo.mp3)
+- [alto](chorale/WhiteChristmas/alto.mp3)
+- [hommes](chorale/WhiteChristmas/hommes.mp3)
