@@ -61,29 +61,10 @@ Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 - [alto2](chorale/ElPueblo/alto2.mp3)
 - [basse](chorale/ElPueblo/bass.mp3)
 
-## George Michael
-- [partition](chorale/GeorgeMichael/GeorgeMichael.pdf)
-- [lead](chorale/GeorgeMichael/lead.mp3)
-- [choir1](chorale/GeorgeMichael/choir1.mp3) [choir2](chorale/GeorgeMichael/choir2.mp3)
-- [bass](chorale/GeorgeMichael/bass.mp3)
-- [tutti](chorale/GeorgeMichael/tutti.mp3)
-
-## Here We Come A'Caroling
-- [partition](chorale/HereWeComeACaroling/ACaroling.pdf)
-- [tutti](chorale/HereWeComeACaroling/tutti.mp3)
-- [soprano](chorale/HereWeComeACaroling/soprano.mp3)
-- [alto](chorale/HereWeComeACaroling/alto.mp3)
-- [tenor](chorale/HereWeComeACaroling/tenor.mp3)
-- [bass](chorale/HereWeComeACaroling/bass.mp3)
-
 ## Koppije moj
 
 - [partition](chorale/KoppijeMoj/koppije-tutti.pdf)
 - [paroles](chorale/KoppijeMoj/paroles.pdf)
-
-## Le chat
-
-- [partition](chorale/LeChat/LeChat.pdf)
 
 ## Les sardinières
 
@@ -111,6 +92,15 @@ Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 - [alto](chorale/TousLesMemes/alto.mp3)
 - [soprano](chorale/TousLesMemes/soprano.mp3)
 
+## Virile
+
+- [partition](chorale/Virile/Virile.pdf)
+- [tutti](chorale/Virile/tutti.mp3)
+- [basse](chorale/Virile/bass.mp3)
+- [tenor](chorale/Virile/tenor.mp3)
+- [alto](chorale/Virile/alto.mp3)
+
+
 ## Viva tutte le vezzose
 
 - [partition](chorale/VivaTutteLeVezzose/vivatuttelevessoze.pdf)
@@ -122,10 +112,3 @@ Venez causer sur [le discord de la chorale](https://discord.gg/V4EhgGk5BM)
 - [paroles](chorale/VivaTutteLeVezzose/paroles.pdf)
 
 
-## White Chistmas
-- [partition](chorale/WhiteChristmas/WhiteChristmas.pdf)
-- [tutti](chorale/WhiteChristmas/tutti.mp3)
-- [soprano](chorale/WhiteChristmas/soprano.mp3)
-- [mezzo](chorale/WhiteChristmas/mezzo.mp3)
-- [alto](chorale/WhiteChristmas/alto.mp3)
-- [hommes](chorale/WhiteChristmas/hommes.mp3)
