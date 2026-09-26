@@ -1,3 +1,7 @@
 *~
 *.wav
 .mscbackup
+chorale/public/
+*.mp3
+chorale/reference
+chorale/deploy.sh

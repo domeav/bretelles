@@ -1,0 +1,28 @@
+structure
+
+intro
+A
+
+[EN]
+B hommes
+C1 femmes
+C2 tutti
+
+D
+A
+
+[AR/HE]
+B hommes/femmes en alternance
+C tutti
+
+D
+A
+
+E
+
+A (main sur la bouche)
+
+modulation tierce
+A [ar/he] tutti
+A [ar/he] femmes + D [en] hommes
+A femmes seules
